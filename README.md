@@ -13,7 +13,7 @@
 - Reasonably easy to use from a UX perspective
 - No obvious plagiarism (I thought you spelt plagiarism wrong in the mark scheme until I googled it, turns out I've been spelling it wrong for years)
 - Includes a PDF of the course certificate
-- Uses React
+- Uses React and Axios
 - No major errors present
 
 ## Prerequisites
@@ -34,38 +34,25 @@
    ```bash
    npm install
    ```
+   If Axios is not installed:
+   ```bash
+   npm install axios
+   ```
 
-3. Create a .env file in the root directory and add your Companies House API key:
+4. Create a .env file in the root directory and add your Companies House API key:
    
    ```
    REACT_APP_COMPANIES_HOUSE_API_KEY=your_actual_api_key_here
    ```
 
-4. Run the application:
+5. Run the application:
 
    ```bash
    npm start
    ```
 
-5. Open your browser and go to http://localhost:3000 to use the application.
+6. Open your browser and go to http://localhost:3000 to use the application.
 
-## Project Structure
-```
-companies-house-search/
-├── public/                     # Public directory for HTML and static files
-├── src/                        # React components and main files
-│   ├── components/             # Component directory
-│   │   ├── SearchBar.js        # Component for the search bar
-│   │   ├── CompanyList.js      # Component for displaying company search results
-│   │   └── CompanyDetail.js    # Component for displaying company details
-│   ├── App.js                  # Main app component
-│   ├── index.js                # Entry point of the React application
-│   └── styles.css              # Styling for the app
-├── .env.example                # Example environment file for API keys
-├── .gitignore                  # Files and directories to ignore in Git
-├── README.md                   # Project information and setup instructions
-└── package.json                # Project metadata and dependencies
-```
 ## Available Scripts
 
 In the project directory, you can run:
