@@ -50,7 +50,7 @@
 5. Open your browser and go to http://localhost:3000 to use the application.
 
 ## Project Structure
-
+```
 JHub-1b-Rich-Web-Application/
 ├── public/                     # Public directory for HTML and static files
 ├── src/                        # React components and main files
@@ -65,7 +65,7 @@ JHub-1b-Rich-Web-Application/
 ├── .gitignore                  # Files and directories to ignore in Git
 ├── README.md                   # Project information and setup instructions
 └── package.json                # Project metadata and dependencies
-
+```
 ## Available Scripts
 
 In the project directory, you can run:
