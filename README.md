@@ -51,7 +51,7 @@
 
 ## Project Structure
 ```
-JHub-1b-Rich-Web-Application/
+companies-house-search/
 ├── public/                     # Public directory for HTML and static files
 ├── src/                        # React components and main files
 │   ├── components/             # Component directory
@@ -73,7 +73,6 @@ In the project directory, you can run:
     npm start - Runs the app in development mode.
     npm test - Launches the test runner.
     npm run build - Builds the app for production.
-    npm run eject - Ejects the app configuration (caution advised).
 
 ## License
 
